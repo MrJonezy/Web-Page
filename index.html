@@ -71,6 +71,10 @@
                 <li>Priority support</li>
                 <li>API access</li>
             </ul>
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+    </section>
+    <section id="contact">
 <!-- index.html -->
 
 <!DOCTYPE html>
@@ -78,6 +82,17 @@
 <head>
     <title>Contact Us - Marketing Data Attribution</title>
     <link rel="stylesheet" href="style.css">
+<!-- index.html -->
+</div>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Marketing Data Attribution</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Calendly widget integration script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="container">
@@ -91,9 +106,15 @@
             <textarea id="message" name="message" class="form-textarea" required></textarea>
             <button type="submit" class="button">Send Message</button>
         </form>
+        <div class="calendly-widget">
+            <a href="https://calendly.com/your-calendly-link" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-calendly-link'});return false;">
+                Schedule a Call
+            </a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
